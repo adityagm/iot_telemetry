@@ -1,0 +1,17 @@
+maritime-iot-rma-prediction/
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── __init__.py
+│   ├── features/
+│   │   ├── __init__.py
+│   │   └── feature_engineering.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── train_aft_survival.py
+│   │   └── evaluate_cindex.py
+│   └── visualization/
+│       ├── __init__.py
+│       └── plot_risk_zones.py
+└── notebooks/
+    └── rma_prediction_demo.ipynb
